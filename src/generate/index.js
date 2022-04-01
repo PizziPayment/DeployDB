@@ -1,12 +1,14 @@
 const { rewriteTables, alterTables } = require("pizzi-db");
 
 async function createTables(config) {
-    await rewriteTables(config)
+    const sequelize = await rewriteTables(config)
+    sequelize.close()
     console.log("Tables created.")
 }
 
 async function syncTables(config) {
-    await alterTables(config)
+    const sequelize = await alterTables(config)
+    sequelize.close()
     console.log("Table synchronized.")
 }
 
