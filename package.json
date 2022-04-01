@@ -1,0 +1,20 @@
+{
+  "name": "deploy-db",
+  "version": "1.0.0",
+  "description": "Deploy Pizzi creating all the tables",
+  "main": "src/main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/main.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "pg": "^8.7.1",
+    "pizzi-db": "git@github.com:PizziPayment/PizziAPIDB.git#commit=afad3ced788a97e53a1410487df094a86025af89",
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.3"
+  },
+  "packageManager": "yarn@3.2.0"
+}
