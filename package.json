@@ -10,7 +10,7 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "pg": "^8.7.1",
-    "pizzi-db": "git@github.com:PizziPayment/PizziAPIDB.git#commit=afad3ced788a97e53a1410487df094a86025af89",
+    "pizzi-db": "git@github.com:PizziPayment/PizziAPIDB.git#commit=b56c6ab6036ef95266d847628502597aba84acc0",
     "yargs": "^17.2.1"
   },
   "devDependencies": {

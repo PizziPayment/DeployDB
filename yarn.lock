@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 5
+  version: 6
   cacheKey: 8
 
 "@types/debug@npm:^4.1.7":
@@ -137,7 +137,7 @@ __metadata:
     "@types/yargs": ^17.0.3
     fs: ^0.0.1-security
     pg: ^8.7.1
-    pizzi-db: "git@github.com:PizziPayment/PizziAPIDB.git#commit=f8964dad39883829ed77867c743c79b913f501c3&workspace=pizzi-db"
+    pizzi-db: "git@github.com:PizziPayment/PizziAPIDB.git#commit=b56c6ab6036ef95266d847628502597aba84acc0"
     yargs: ^17.2.1
   languageName: unknown
   linkType: soft
@@ -379,9 +379,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pizzi-db@git@github.com:PizziPayment/PizziAPIDB.git#commit=f8964dad39883829ed77867c743c79b913f501c3&workspace=pizzi-db":
+"pizzi-db@git@github.com:PizziPayment/PizziAPIDB.git#commit=b56c6ab6036ef95266d847628502597aba84acc0":
   version: 1.0.1
-  resolution: "pizzi-db@git@github.com:PizziPayment/PizziAPIDB.git#workspace=pizzi-db&commit=f8964dad39883829ed77867c743c79b913f501c3"
+  resolution: "pizzi-db@git@github.com:PizziPayment/PizziAPIDB.git#commit=b56c6ab6036ef95266d847628502597aba84acc0"
   dependencies:
     neverthrow: ^4.3.1
     pg: ^8.7.1
@@ -389,7 +389,7 @@ __metadata:
     reflect-metadata: ^0.1.13
     sequelize: =6.12.4
     sequelize-typescript: ^2.1.1
-  checksum: 1f4ad59bee15a984e32939ee35aca26a94e69d922efd43cff4ce9a635de204fa7251592f6b7738734403e655995fb98fd4cf237854d659419f1b0175c9cd6248
+  checksum: dc3ead13573d8bac69f74b88b68dbf540cf85ed0b26b7a2654ca859aae2c866b2b47a4b5b5562cdcc653478b022dbc165a97a5051fa26c175a1a5f42abd9276d
   languageName: node
   linkType: hard
 
