@@ -35,12 +35,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/yargs@npm:^17.0.3":
-  version: 17.0.3
-  resolution: "@types/yargs@npm:17.0.3"
+"@types/yargs@npm:^17.0.11":
+  version: 17.0.11
+  resolution: "@types/yargs@npm:17.0.11"
   dependencies:
     "@types/yargs-parser": "*"
-  checksum: 8c4e01f893f0b372a37efb2da2191b63793a25126e0b468c7eb8886176fec2a10f063d9718fa75f1fa00e82fbed4a614bb06661d968e4233be8a00468b94ac60
+  checksum: 30a45f9e59a5cc3c967f76036bea6a456b1416175aa4c002b70e1f295772e2247ed8117f392b20eef4557ad761678df8c1fcb141852f2c7c44977130d802c855
   languageName: node
   linkType: hard
 
@@ -134,11 +134,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "deploy-db@workspace:."
   dependencies:
-    "@types/yargs": ^17.0.3
-    fs: ^0.0.1-security
-    pg: ^8.7.1
-    pizzi-db: "ssh://git@github.com/PizziPayment/PizziAPIBdd#tag=v2.1.0"
-    yargs: ^17.2.1
+    "@types/yargs": ^17.0.11
+    pizzi-db: "ssh://git@github.com/PizziPayment/PizziAPIBdd#tag=v2.2.0"
+    yargs: ^17.5.1
   languageName: unknown
   linkType: soft
 
@@ -167,13 +165,6 @@ __metadata:
   version: 1.0.0
   resolution: "fs.realpath@npm:1.0.0"
   checksum: 99ddea01a7e75aa276c250a04eedeffe5662bce66c65c07164ad6264f9de18fb21be9433ead460e54cff20e31721c811f4fb5d70591799df5f85dce6d6746fd0
-  languageName: node
-  linkType: hard
-
-"fs@npm:^0.0.1-security":
-  version: 0.0.1-security
-  resolution: "fs@npm:0.0.1-security"
-  checksum: 53c6230e1faae9fa32c1df82c16a84b51b1243d20f3da2b64bd110bb472b73b9185169b703e008356e3cdc92d155088b617d9d39a63b5227a30b3621baad7f5d
   languageName: node
   linkType: hard
 
@@ -379,9 +370,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pizzi-db@ssh://git@github.com/PizziPayment/PizziAPIBdd#tag=v2.1.0":
+"pizzi-db@ssh://git@github.com/PizziPayment/PizziAPIBdd#tag=v2.2.0":
   version: 1.0.1
-  resolution: "pizzi-db@ssh://git@github.com/PizziPayment/PizziAPIBdd#commit=b64d7082759c7523c94f4a5538a6441d9ada67f4"
+  resolution: "pizzi-db@ssh://git@github.com/PizziPayment/PizziAPIBdd#commit=d9b747ddc6d117a5e73cd9d898e0406892a8f2d6"
   dependencies:
     neverthrow: ^4.3.1
     pg: ^8.7.1
@@ -389,7 +380,7 @@ __metadata:
     reflect-metadata: ^0.1.13
     sequelize: =6.12.4
     sequelize-typescript: =2.1.2
-  checksum: bb19f8fa1480e61d4644190c3fd59fdf76243e4bcee62f0dda9d07f9a2f1c2cac3c9f02fea5787f666989570060db94e541f7179c2014b80cf99a019e655b281
+  checksum: d6333353f7f423b9443df9221f5f6340b735a7e48fbd3fe75aafa1b0dcea4b0f86e865f8f6c6f31418206f8827345f085cf497b365840f5bb415c3bdbde26197
   languageName: node
   linkType: hard
 
@@ -552,7 +543,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string-width@npm:^4.1.0, string-width@npm:^4.2.0":
+"string-width@npm:^4.1.0, string-width@npm:^4.2.0, string-width@npm:^4.2.3":
   version: 4.2.3
   resolution: "string-width@npm:4.2.3"
   dependencies:
@@ -659,24 +650,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs-parser@npm:^20.2.2":
-  version: 20.2.9
-  resolution: "yargs-parser@npm:20.2.9"
-  checksum: 8bb69015f2b0ff9e17b2c8e6bfe224ab463dd00ca211eece72a4cd8a906224d2703fb8a326d36fdd0e68701e201b2a60ed7cf81ce0fd9b3799f9fe7745977ae3
+"yargs-parser@npm:^21.0.0":
+  version: 21.1.1
+  resolution: "yargs-parser@npm:21.1.1"
+  checksum: ed2d96a616a9e3e1cc7d204c62ecc61f7aaab633dcbfab2c6df50f7f87b393993fe6640d017759fe112d0cb1e0119f2b4150a87305cc873fd90831c6a58ccf1c
   languageName: node
   linkType: hard
 
-"yargs@npm:^17.2.1":
-  version: 17.2.1
-  resolution: "yargs@npm:17.2.1"
+"yargs@npm:^17.5.1":
+  version: 17.5.1
+  resolution: "yargs@npm:17.5.1"
   dependencies:
     cliui: ^7.0.2
     escalade: ^3.1.1
     get-caller-file: ^2.0.5
     require-directory: ^2.1.1
-    string-width: ^4.2.0
+    string-width: ^4.2.3
     y18n: ^5.0.5
-    yargs-parser: ^20.2.2
-  checksum: 451aac46f82da776f436018feed0244bc0e7b4355f7e397bcb53d34c691b177c0d71db3dda9653760e1bc240254d8b763a252ff918ef9e235a8d202e2909c4eb
+    yargs-parser: ^21.0.0
+  checksum: 00d58a2c052937fa044834313f07910fd0a115dec5ee35919e857eeee3736b21a4eafa8264535800ba8bac312991ce785ecb8a51f4d2cc8c4676d865af1cfbde
   languageName: node
   linkType: hard
