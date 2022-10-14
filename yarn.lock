@@ -28,6 +28,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/validator@npm:^13.7.1":
+  version: 13.7.7
+  resolution: "@types/validator@npm:13.7.7"
+  checksum: e32d2bc3b86317da2dff7565e371a2bd0108cdbd7c0b426070c9b9fab30cf07572eea4fb193cb7420261b2eb99b2fc112bf021d48f98eee181844a47533f817a
+  languageName: node
+  linkType: hard
+
 "@types/yargs-parser@npm:*":
   version: 20.2.1
   resolution: "@types/yargs-parser@npm:20.2.1"
@@ -135,7 +142,7 @@ __metadata:
   resolution: "deploy-db@workspace:."
   dependencies:
     "@types/yargs": ^17.0.11
-    pizzi-db: "ssh://git@github.com/PizziPayment/PizziAPIBdd#tag=v2.2.0"
+    pizzi-db: "ssh://git@github.com/PizziPayment/PizziAPIBdd#tag=v3.3.0"
     yargs: ^17.5.1
   languageName: unknown
   linkType: soft
@@ -189,10 +196,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inflection@npm:^1.13.1":
-  version: 1.13.2
-  resolution: "inflection@npm:1.13.2"
-  checksum: e7ad0559384ed7c526813404bde843f8f17941d47625ad60fc3b09e46efde873dd9840818007c6bd4dbe388e6248fa033d5a8c405c5fc62738c51b118a0e940f
+"inflection@npm:^1.13.2":
+  version: 1.13.4
+  resolution: "inflection@npm:1.13.4"
+  checksum: 6744feede9998ad8abd2b1db4af79f494a166e656a0aa949d90c8f4a945c1d07038a3756bf7af78c8f6fce368ba213a7ebf35da3edeffd39f1da0ff465eed6eb
   languageName: node
   linkType: hard
 
@@ -268,10 +275,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"neverthrow@npm:^4.3.1":
-  version: 4.3.1
-  resolution: "neverthrow@npm:4.3.1"
-  checksum: 4cff844d3c93254a9c6bb54aea58d3b4997cb1749d8d86d1cce1f06cf286f58db7b652cf2902ca19739012da940a6c06507095e2db86261cca3cd4b6746dacd4
+"neverthrow@npm:^5.0.0":
+  version: 5.0.1
+  resolution: "neverthrow@npm:5.0.1"
+  checksum: 8fc9f9b20a1f46acde4039834d04888e872156b05be8e3e69480f117d28d68e0cdc234cb763e77cf246f9a9f6d723c2444b6ebf2a649f042cd4be23c36fdb8ab
   languageName: node
   linkType: hard
 
@@ -312,12 +319,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pg-pool@npm:^3.4.1":
-  version: 3.4.1
-  resolution: "pg-pool@npm:3.4.1"
+"pg-pool@npm:^3.5.2":
+  version: 3.5.2
+  resolution: "pg-pool@npm:3.5.2"
   peerDependencies:
     pg: ">=8.0"
-  checksum: 50d68bd99a5c7ca32ad93ba97462528d6a8df87c5cf5a0743a3f0946bc57be82a45025e67eb8a6e522ed25316747864e5ce043339577a71f8f430e1364da2727
+  checksum: a5d029200257671f0c17ca54b9ab6213e2060e64e5cc792b78edd50ab471a26cd364890d05d546d9296949e079e943821cf2ceb4d488f4e6a6789fb781a628bf
   languageName: node
   linkType: hard
 
@@ -341,23 +348,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pg@npm:^8.7.1":
-  version: 8.7.1
-  resolution: "pg@npm:8.7.1"
+"pg@npm:^8.8.0":
+  version: 8.8.0
+  resolution: "pg@npm:8.8.0"
   dependencies:
     buffer-writer: 2.0.0
     packet-reader: 1.0.0
     pg-connection-string: ^2.5.0
-    pg-pool: ^3.4.1
+    pg-pool: ^3.5.2
     pg-protocol: ^1.5.0
     pg-types: ^2.1.0
     pgpass: 1.x
   peerDependencies:
-    pg-native: ">=2.0.0"
+    pg-native: ">=3.0.1"
   peerDependenciesMeta:
     pg-native:
       optional: true
-  checksum: 3a17d9a73df9c9f5f99400751144f9d5e8dbe1948ca44f5b5eecb2166ad78cab36d070c2a97438cd3a5d1d083e70af1d3e0aad4554a45fe74b77d98ed4487242
+  checksum: fa30a85814dd7238b582c3bc6c0b9e2b0ae38dd0a6bb485ef480e64bb5ce589de6cb873ce4d3cd10c37a3e0a1e1281ba75dc7d80b1a68bae91999cd5b70d398b
   languageName: node
   linkType: hard
 
@@ -370,17 +377,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pizzi-db@ssh://git@github.com/PizziPayment/PizziAPIBdd#tag=v2.2.0":
+"pizzi-db@ssh://git@github.com/PizziPayment/PizziAPIBdd#tag=v3.3.0":
   version: 1.0.1
-  resolution: "pizzi-db@ssh://git@github.com/PizziPayment/PizziAPIBdd#commit=d9b747ddc6d117a5e73cd9d898e0406892a8f2d6"
+  resolution: "pizzi-db@ssh://git@github.com/PizziPayment/PizziAPIBdd#commit=faf0d02d0ff24559219a9abfe09a270abec2a024"
   dependencies:
-    neverthrow: ^4.3.1
-    pg: ^8.7.1
-    prettier: ^2.5.1
+    neverthrow: ^5.0.0
+    pg: ^8.8.0
+    prettier: ^2.7.1
     reflect-metadata: ^0.1.13
-    sequelize: =6.12.4
-    sequelize-typescript: =2.1.2
-  checksum: d6333353f7f423b9443df9221f5f6340b735a7e48fbd3fe75aafa1b0dcea4b0f86e865f8f6c6f31418206f8827345f085cf497b365840f5bb415c3bdbde26197
+    sequelize: =6.21.4
+    sequelize-typescript: =2.1.3
+  checksum: 3173ff4304983ac54f75229ffa8b54937032e71929f01385ff3e7ddb1ab23103508141e3ad7e81330cacd568f50b26d2527aae9ae038725d51fb9710380a9d6f
   languageName: node
   linkType: hard
 
@@ -414,12 +421,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.5.1":
-  version: 2.5.1
-  resolution: "prettier@npm:2.5.1"
+"prettier@npm:^2.7.1":
+  version: 2.7.1
+  resolution: "prettier@npm:2.7.1"
   bin:
     prettier: bin-prettier.js
-  checksum: 21b9408476ea1c544b0e45d51ceb94a84789ff92095abb710942d780c862d0daebdb29972d47f6b4d0f7ebbfb0ffbf56cc2cfa3e3e9d1cca54864af185b15b66
+  checksum: 55a4409182260866ab31284d929b3cb961e5fdb91fe0d2e099dac92eaecec890f36e524b4c19e6ceae839c99c6d7195817579cdffc8e2c80da0cb794463a748b
   languageName: node
   linkType: hard
 
@@ -480,9 +487,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sequelize-typescript@npm:=2.1.2":
-  version: 2.1.2
-  resolution: "sequelize-typescript@npm:2.1.2"
+"sequelize-typescript@npm:=2.1.3":
+  version: 2.1.3
+  resolution: "sequelize-typescript@npm:2.1.3"
   dependencies:
     glob: 7.2.0
   peerDependencies:
@@ -490,18 +497,19 @@ __metadata:
     "@types/validator": "*"
     reflect-metadata: "*"
     sequelize: ">=6.8.0"
-  checksum: 2809fd643578a4331a7092b7fdb839b55821e2583f38ba5b77fdf3f800b8bac0967c5f75241165afc9718046b737187d8bfb06e220f030392784994935c83039
+  checksum: e6e275760054d432689d6e5003abe86dd6828a0693d567b2516e4cc7f81e0d240f60b49412327b7fffc5af099cb04381cabe8db54ce9f29bde8c748439a4e45e
   languageName: node
   linkType: hard
 
-"sequelize@npm:=6.12.4":
-  version: 6.12.4
-  resolution: "sequelize@npm:6.12.4"
+"sequelize@npm:=6.21.4":
+  version: 6.21.4
+  resolution: "sequelize@npm:6.21.4"
   dependencies:
     "@types/debug": ^4.1.7
+    "@types/validator": ^13.7.1
     debug: ^4.3.3
     dottie: ^2.0.2
-    inflection: ^1.13.1
+    inflection: ^1.13.2
     lodash: ^4.17.21
     moment: ^2.29.1
     moment-timezone: ^0.5.34
@@ -530,7 +538,7 @@ __metadata:
       optional: true
     tedious:
       optional: true
-  checksum: bf781ea640627cb8f32bcc3521ad100c98cca0f77ac1f0bffeaaa1bb5f15dff200c5e225d752f9c7fc8824f3f1885d3d4944f5a31b990008684eedc19e805059
+  checksum: 6d066083125aa8a90286c82379964b5e54620daa7eac7f0d8b25c52cad93f8cae70cc4606a58097e815f57bad405969353d35321c1c9edfff27d953cec9ff064
   languageName: node
   linkType: hard
 
