@@ -8,7 +8,7 @@
     "start": "node ./src/main.js"
   },
   "dependencies": {
-    "pizzi-db": "ssh://git@github.com/PizziPayment/PizziAPIBdd#tag=v3.3.0",
+    "pizzi-db": "ssh://git@github.com/PizziPayment/PizziAPIBdd#tag=v3.4.0",
     "yargs": "^17.5.1"
   },
   "devDependencies": {
